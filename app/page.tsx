@@ -19,12 +19,13 @@ export default function Home() {
         <div className="max-w-4xl mx-auto mb-12">
           <div className="relative pb-[56.25%] h-0 overflow-hidden rounded-lg shadow-2xl">
             <iframe
-              src="https://player.vimeo.com/video/YOUR_VIDEO_ID"
+              src="https://player.vimeo.com/video/1045678901"
               className="absolute top-0 left-0 w-full h-full"
               frameBorder="0"
               allow="autoplay; fullscreen; picture-in-picture"
               allowFullScreen
             ></iframe>
+            {/* TODO: Replace video ID above after uploading to Vimeo */}
           </div>
         </div>
 
@@ -121,9 +122,10 @@ export default function Home() {
           </div>
 
           <a
-            href="https://buy.stripe.com/YOUR_PAYMENT_LINK"
+            href="https://buy.stripe.com/test_REPLACE_WITH_YOUR_LINK"
             className="block w-full bg-yellow-400 hover:bg-yellow-500 text-slate-900 font-bold text-2xl py-4 rounded-full text-center transition-all transform hover:scale-105 shadow-xl mb-6"
           >
+            {/* TODO: Replace Stripe payment link above after creating product */}
             YES! Give Me Instant Access
           </a>
 
